@@ -1,0 +1,21 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Local override files
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Crash log files
+crash.log
+
+# Kubernetes config files (if any local ones exist)
+.kube/
+
+# OS generated files
+.DS_Store
+Thumbs.db
