@@ -31,7 +31,7 @@ variable "private_subnets" {
 variable "eks_version" {
   description = "Kubernetes version for EKS"
   type        = string
-  default     = "1.21"
+  default     = "1.30"
 }
 
 variable "worker_instance_type" {
